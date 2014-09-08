@@ -38,6 +38,18 @@ public class Turtle1
         sweet.backward(50);
         sweet.turnRight();
         sweet.forward(40);
+        sweet.penUp();
+        cool.turnRight();
+        cool.penUp();
+        cool.forward(110);
+        cool.penDown();
+        cool.forward(40);
+        cool.backward(40);
+        cool.turnLeft();
+        cool.forward(100);
+        sweet.forward(110);
+        sweet.penDown();
+        
         
     }
 }
