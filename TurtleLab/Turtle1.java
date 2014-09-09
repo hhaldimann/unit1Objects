@@ -1,13 +1,17 @@
 import java.awt.Color;
+import javax.swing.JFrame;
+
 public class Turtle1
 {
     public static void main(String[] args)
     {
         World turtleWorld = new World();
         Turtle cool = new Turtle(turtleWorld);
-        cool.setColor(Color.ORANGE);
+        cool.setColor(Color.GREEN);
         cool.setPenColor(Color.BLUE);
-        cool.setPenWidth(7);
+        cool.setPenWidth(20);
+        cool.setHeight(40);
+        cool.setWidth(25);
         cool.penDown();
         cool.forward(100);
         cool.backward(50);
@@ -24,7 +28,7 @@ public class Turtle1
         sweet.forward(80);
         sweet.turnLeft();
         sweet.penDown();
-        sweet.setPenWidth(7);
+        sweet.setPenWidth(20);
         sweet.forward(100);
         sweet.turnRight();
         sweet.forward(40);
@@ -49,8 +53,37 @@ public class Turtle1
         cool.forward(100);
         sweet.forward(110);
         sweet.penDown();
-        
-        
+        sweet.turnLeft();
+        sweet.forward(100);
+        sweet.backward(100);
+        sweet.turnRight();
+        sweet.forward(40);
+        cool.penUp();
+        cool.backward(130);
+        cool.turnRight();
+        cool.penDown();
+        cool.setPenWidth(35);
+        cool.forward(30);
+        cool.turnRight();
+        cool.forward(60);
+        cool.turnRight();
+        cool.forward(60);
+        cool.turnRight();
+        cool.forward(60);
+        cool.turnRight();
+        cool.forward(30);
+        sweet.penUp();
+        sweet.turnLeft();
+        sweet.forward(50);
+        sweet.penDown();
+        sweet.turnRight();
+        sweet.forward(28);
+        sweet.penUp();
+        sweet.turnRight();
+        sweet.forward(79);
+        sweet.turnRight();
+        sweet.forward(20);
+        cool.penUp();
+        cool.forward(70);
     }
 }
-      
